@@ -1,0 +1,15 @@
+# 忽略所有文件
+*
+
+# 但不忽略 .gitignore 文件本身
+!.gitignore
+
+# 不忽略 public 文件夹
+!public/
+
+# 忽略 public 文件夹下的所有文件
+public/*
+
+# 但不忽略 public/reddit_summary.xml
+!public/reddit_summary.xml
+
